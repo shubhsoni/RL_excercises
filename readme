@@ -1,0 +1,49 @@
+Code for:
+
+http://incompleteideas.net/book/code/code2nd.html
+
+Reinforcement Learning: An Introduction, 2nd edition
+by Richard S. Sutton and Andrew G. Barto
+
+Below are links to a variety of software related to examples and exercises in the book. 
+Re-implementations in Python by Shangtong Zhang
+Re-implementations in julialang by Jun Tian
+Original code for the first edition
+Re-implementation of first edition code in Matlab by John Weatherwax
+And below is some of the code that Rich used to generate the examples and figures in the 2nd edition (made available as is):
+Chapter 1: Introduction
+Tic-Tac-Toe Example (Lisp). In C.
+Chapter 2: Multi-armed Bandits
+10-armed Testbed Example, Figure 2.12(Lisp)
+Testbed with Softmax Action Selection, Exercise 2.2 (Lisp)
+Optimistic Initial Values Example, Figure 2.3 (Lisp)
+UCB results, Figure 2.4 (Lisp)
+Gradient bandits, Figure 2.5 (Lisp)
+Parameter study of multiple algorithms, Figure 2.6 (Lisp)
+Chapter 3: Finite Markov Decision Processes
+Pole-Balancing Example, Example 3.4 (C)
+Gridworld Example 3.5 and 3.8, Code for Figures 3.2 and 3.5 (Lisp)
+Chapter 4: Dynamic Programming
+Policy Evaluation, Gridworld Example 4.1, Figure 4.1 (Lisp)
+Policy Iteration, Jack's Car Rental Example, Figure 4.2 (Lisp)
+Value Iteration, Gambler's Problem Example, Figure 4.3 (Lisp)
+Chapter 5: Monte Carlo Methods
+Monte Carlo Policy Evaluation, Blackjack Example 5.1, Figure 5.1 (Lisp)
+Monte Carlo ES, Blackjack Example 5.3, Figure 5.2 (Lisp)
+Blackjack estimate one state, Figure 5.3 (Lisp)
+Infinite variance Example 5.5, Figure 5.4 (Lisp)
+Chapter 6: Temporal-Difference Learning
+TD Prediction in Random Walk, Example 6.2 (Lisp)
+TD Prediction in Random Walk with Batch Training, Example 6.3, Figure 6.2 (Lisp)
+TD Prediction in Random Walk (MatLab by Jim Stone)
+Double Q-learning vs conventional Q-learning Example 6.7, Figure 6.5 (Lisp)
+Chapter 7: n-step Bootstrapping
+N-step TD on the Random Walk, Example 7.1, Figure 7.2: online and offline (Lisp). In C.
+Chapter 8: Planning and Learning with Tabular Methods
+Trajectory Sampling Experiment, Figure 8.8 (Lisp)
+Chapter 9: On-policy Prediction with Approximation
+Chapter 10: On-policy Control with Approximation
+R-learning on Access-Control Queuing Task, Example 6.7, Figure 6.17 (Lisp), (C version)
+Chapter 11: Off-policy Methods with Approximation
+Chapter 12: Eligibility Traces
+Chapter 13: Policy Gradient Methods
